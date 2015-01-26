@@ -5,8 +5,8 @@ class User {
   }
 
   get name() {
-    return name;
+    return 'anonyCow';
   }
 }
-export default new User( 'anonyMouse' );
+export default new User(  );
 

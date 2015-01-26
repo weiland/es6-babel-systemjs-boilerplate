@@ -42,6 +42,7 @@ This project was just a quick-start and there are still some bugs and things lef
 - [ ] add a small livereload webserver / browerSync
 - [ ] try to move all gulp tasks to npm scripts
 - [ ] add more and more complex examples
+- [ ] watch task should not die from a compiling error
 
 ## 
 The project's main idea is to transpile  ES6 modules to ES5 and handle the modules via SystemJS' self executing bundle  
