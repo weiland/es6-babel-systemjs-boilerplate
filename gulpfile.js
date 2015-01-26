@@ -1,6 +1,7 @@
 var path = require('path');
 
 var gulp = require('gulp');
+var runSequence = require('run-sequence');
 
 var to5 = require('gulp-6to5');
 var builder = require('systemjs-builder');
@@ -41,7 +42,10 @@ gulp.task('build:bundle', function () {
 
 });
 
-gulp.task('build', ['build:system', 'build:bundle']);
+gulp.task('build', function(callback) {
+  runSequence('build:system', ['build:bundle'], callback);
+
+});
 
 gulp.task('watch', function() {
   gulp.watch(CONFIG.src, ['build']);
