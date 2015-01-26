@@ -3,9 +3,9 @@
 This is an ES6 Boilerplate where the source code is transpiled to ES5 via 6to5 and 
 all modules are bundled into one single file via SystemJS for production without including any Traceur runtime.
 
-## Getting stated
+## Getting started
 ```bash
-# clone the repository
+# clone this repository
 git clone https://github.com/weiland/es6-6to5-systemjs-boilerplate.git
 cd es6-6to5-systemjs-boilerplate
 
@@ -15,7 +15,7 @@ npm install
 # build your code
 gulp build
 
-# for active development there is a watch task which re-build on each change
+# for active development there is a watch task which re-builds the bundle on each change
 gulp watch
 ```
 
