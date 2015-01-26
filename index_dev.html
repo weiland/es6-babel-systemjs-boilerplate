@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>6to5 and systemJS modules</title>
+
+  </head>
+  <body>
+    <!-- Traceur and es6-module-loader is only required for Development -->
+    <script src="bower_components/traceur/traceur.js"></script>
+    <script src="bower_components/es6-module-loader/dist/es6-module-loader.js"></script>
+    <script src="bower_components/system.js/dist/system.js"></script>
+    <script>
+      System.config({
+        baseURL: '/src/'
+      });
+
+      System.import('main')
+    </script>
+  </body>
+
+</html>

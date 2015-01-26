@@ -1,0 +1,19 @@
+{
+  "name": "6to5-SystemJS",
+  "version": "0.0.0",
+  "authors": [
+    "Pascal Weiland <hello@pascal.codes>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "system.js": "~0.11.3"
+  }
+}

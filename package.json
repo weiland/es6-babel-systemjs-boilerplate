@@ -1,0 +1,23 @@
+{
+  "name": "6to5-systemJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "6to5": "^2.13.7",
+    "gulp": "^3.8.10",
+    "install": "^0.1.8",
+    "npm": "^2.3.0",
+    "systemjs-builder": "^0.5.3"
+  },
+  "devDependencies": {
+    "gulp-6to5": "^2.0.2",
+    "gulp-concat": "^2.4.3",
+    "gulp-watch": "^4.1.0"
+  }
+}
