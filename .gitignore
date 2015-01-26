@@ -20,5 +20,5 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # this project
-dits/[^.]*
+dist/[^.]*
 systemBuild/[^.]*
