@@ -14,7 +14,13 @@ var CONFIG = {
   bundleBuild: 'dist/app.js'  // final
 };
 
-var options = { config: { baseURL: path.resolve( CONFIG.systemBuild ) }};
+var options = {
+  //minify: true,
+  //sourceMaps: true,
+  config: {
+    baseURL: path.resolve( CONFIG.systemBuild )
+  }
+};
 
 // compile all ES6 modules to ES5 and register modules via SystemJS
 gulp.task('build:system', function () {
