@@ -1,6 +1,6 @@
 class User {
 
-  constructor(name='anonyMouse') {
+  constructor(name='anonyCat') {
     console.log(`a new user: ${name}`);
   }
 
@@ -8,5 +8,5 @@ class User {
     return name;
   }
 }
-export default new User();
+export default new User( 'anonyMouse' );
 
