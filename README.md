@@ -1,9 +1,9 @@
-# ES6 6to5 & SystemJS Boilerplate for modern JS apps
+# ES6 6to5 & SystemJS Boilerplate 
 
-This is an ES6 Boilerplate where the source code is transpiled to ES5 via 6to5 and  
+This is an ES6 Boilerplate where the source code is transpiled to ES5 via 6to5 and where  
 all modules are bundled into one single file via SystemJS for production without including any Traceur runtime.
 
-## Getting started
+### Getting started
 ```bash
 # clone this repository
 git clone https://github.com/weiland/es6-6to5-systemjs-boilerplate.git
@@ -50,4 +50,5 @@ which means that we don't need to include any traceur or es6-module-loader etc.
 The source can/should be written in ES6 and is build to one single bundle file.  
 
 
+### Contribution 
 Feel free to contribute :)
