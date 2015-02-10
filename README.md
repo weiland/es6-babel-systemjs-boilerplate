@@ -22,16 +22,10 @@ gulp watch
 ### Development
 Place your ES6 javascript code in the `src` directory.  
 The `index.html` is your entry point. (run `gulp build` to make sure it exists)  
-Run something like `server`, `live-server`, `puer` (or what kind of local server you prefer)  
-
-For development, i offer using the  `index_dev.html` which depends on the bower `system.js` package and  
-also includes a traceur runtime (which is only used for development)  
-Run `bower install` to install the system.js bower package.  
+Run something like `server`, `live-server`, `puer` (or whatever kind of local server you use)  
 
 ### Requirements
 The project depends on node, gulp, systemjs-builder and 6to5.  
-
-
 
 
 
