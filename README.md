@@ -1,13 +1,13 @@
-# ES6 6to5 & SystemJS Boilerplate 
+# ES6 babel & SystemJS Boilerplate 
 
-This is an ES6 Boilerplate where the source code is transpiled to ES5 via 6to5 and where  
+This is an ES6 Boilerplate where the source code is transpiled to ES5 via Babel (old 6to5) and where  
 all modules are bundled into one single file via SystemJS for production without including any Traceur runtime.
 
 ### Getting started
 ```bash
 # clone this repository
-git clone https://github.com/weiland/es6-6to5-systemjs-boilerplate.git
-cd es6-6to5-systemjs-boilerplate
+git clone https://github.com/weiland/es6-babel-systemjs-boilerplate.git
+cd es6-babel-systemjs-boilerplate
 
 # install node dependencies
 npm install
@@ -25,9 +25,7 @@ The `index.html` is your entry point. (run `gulp build` to make sure it exists)
 Run something like `server`, `live-server`, `puer` (or whatever kind of local server you use)  
 
 ### Requirements
-The project depends on node, gulp, systemjs-builder and 6to5.  
-
-
+The project depends on node, gulp, systemjs-builder and babel.  
 
 
 ### Todos
@@ -44,5 +42,5 @@ which means that we don't need to include any traceur or es6-module-loader etc.
 The source can/should be written in ES6 and is build to one single bundle file.  
 
 
-### Contribution 
+### Contributing
 Feel free to contribute :)

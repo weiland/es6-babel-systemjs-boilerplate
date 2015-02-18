@@ -3,14 +3,14 @@ var path = require('path');
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
 
-var to5 = require('gulp-6to5');
+var babel = require('gulp-babel');
 var builder = require('systemjs-builder');
 
 var CONFIG = {
   src: 'src/*.js',
   systemBuild: 'systemBuild', // SystemJS build directory
 //  dist: 'dist',
-  to5: {modules: 'system'},   // use SystemJS as module builder in 6to5
+  babel: {modules: 'system'},   // use SystemJS as module builder in 6to5
   bundleName: 'main',         // SystemJS bundle name
   bundleBuild: 'dist/app.js'  // final
 };
@@ -26,7 +26,7 @@ var options = {
 // compile all ES6 modules to ES5 and register modules via SystemJS
 gulp.task('build:system', function () {
   return gulp.src( CONFIG.src )
-    .pipe(to5( CONFIG.to5 ))
+    .pipe(babel( CONFIG.babel ))
     .pipe(gulp.dest( CONFIG.systemBuild ));
 });
 
